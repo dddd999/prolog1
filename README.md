@@ -7,6 +7,8 @@ In linux terminal:
 3. inside of gprolog open file with command "[prolog]."
 *File is now open and running*
 
+to exit gprolog type "halt."
+
 Instructions for calculator: 
 
 Adding two numbers:
@@ -40,7 +42,7 @@ where 1 is your first number
       and N is a fixed variable (use any letter but not a number)
       i.e "add(5,2,N)." returns N = (5/2) = 2.5
       
-Logarithm 
+Logarithm:
 "logbN(N,B,X)."
 where B is your base
       N is the number of
@@ -53,4 +55,15 @@ log base 10 of 1000
 log base 8 of 64 
 log base 9 of 9 
 
-to exit gprolog type "halt."
+Factorial:
+"factorial(1,N)."
+where 1 is your number
+      and N is a fixed variable (use any letter but not a number)
+      i.e "factorial(5,N)." returns N = 120
+      
+Power:
+"power(1,2,N)."
+where 1 is your number
+      2 is your exponent
+      and N is a fixed variable (use any letter but not a number)
+      i.e "power(5,2,N)." returns N = 25
