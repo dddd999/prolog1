@@ -16,11 +16,11 @@ div(N,F,X) :-
 	X is N/F.
 
 logbN(1,_,0).
-logbN(N,B,Ans):-
+logbN(N,B,X):-
     N > 1,
     N1 is N/B,
     logbN(N1, B, A),
-    Ans is A + 1.
+    X is A + 1.
 
 factorial(0,1). 
 factorial(N,F) :-  
