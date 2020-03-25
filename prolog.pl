@@ -1,16 +1,16 @@
-add(0,1,X).
+add(0,1,_).
 add(N,F,X) :-
 	X is N+F.
 
-sub(0,1,X).
+sub(0,1,_).
 sub(N,F,X) :-
 	X is N-F.
 
-mult(0,1,X).
+mult(0,1,_).
 mult(N,F,X) :-
 	X is N*F.
 
-div(0,1,X).
+div(0,1,_).
 div(N,F,X) :-
     F>0,
 	X is N/F.
@@ -32,7 +32,7 @@ factorial(N,F) :-
 % Input = ?- factorial(#,N). 
 % N is 6+3. 
 
-power(X,0,1).
+power(_,0,1).
 power(X,Y,V):-
 	Y > 0,
 	Y1 is Y - 1,
